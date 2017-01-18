@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  NameList
 //
-//  Created by wanghuiyong on 07/11/2016.
+//  Created by wanghuiyong on 06/11/2016.
 //  Copyright © 2016 wanghuiyong. All rights reserved.
 //
 

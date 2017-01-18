@@ -7,27 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CA8333C1DD0AF350002D81B /* SQLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA8333B1DD0AF350002D81B /* SQLManager.m */; };
+		0CA8333D1DD0B0D90002D81B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDE818B1DD0A254002DF58E /* libsqlite3.tbd */; };
 		0CDE81631DD08D37002DF58E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE81621DD08D37002DF58E /* main.m */; };
 		0CDE81661DD08D37002DF58E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE81651DD08D37002DF58E /* AppDelegate.m */; };
-		0CDE81691DD08D37002DF58E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE81681DD08D37002DF58E /* ViewController.m */; };
 		0CDE816C1DD08D37002DF58E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE816A1DD08D37002DF58E /* Main.storyboard */; };
 		0CDE816F1DD08D37002DF58E /* NameList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE816D1DD08D37002DF58E /* NameList.xcdatamodeld */; };
 		0CDE81711DD08D37002DF58E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE81701DD08D37002DF58E /* Assets.xcassets */; };
 		0CDE81741DD08D37002DF58E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CDE81721DD08D37002DF58E /* LaunchScreen.storyboard */; };
+		0CDE81851DD08D7D002DF58E /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE817F1DD08D7D002DF58E /* AddViewController.m */; };
+		0CDE81861DD08D7D002DF58E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE81801DD08D7D002DF58E /* HomeViewController.m */; };
+		0CDE81881DD08D7D002DF58E /* StudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE81821DD08D7D002DF58E /* StudentModel.m */; };
+		0CDE81891DD08D7D002DF58E /* NameList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE81831DD08D7D002DF58E /* NameList.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CA8333A1DD0AF350002D81B /* SQLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLManager.h; sourceTree = "<group>"; };
+		0CA8333B1DD0AF350002D81B /* SQLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLManager.m; sourceTree = "<group>"; };
 		0CDE815E1DD08D37002DF58E /* NameList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NameList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CDE81621DD08D37002DF58E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CDE81641DD08D37002DF58E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0CDE81651DD08D37002DF58E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0CDE81671DD08D37002DF58E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0CDE81681DD08D37002DF58E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0CDE816B1DD08D37002DF58E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CDE816E1DD08D37002DF58E /* NameList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NameList.xcdatamodel; sourceTree = "<group>"; };
 		0CDE81701DD08D37002DF58E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CDE81731DD08D37002DF58E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CDE81751DD08D37002DF58E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CDE817B1DD08D7D002DF58E /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		0CDE817C1DD08D7D002DF58E /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		0CDE817E1DD08D7D002DF58E /* StudentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentModel.h; sourceTree = "<group>"; };
+		0CDE817F1DD08D7D002DF58E /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		0CDE81801DD08D7D002DF58E /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		0CDE81821DD08D7D002DF58E /* StudentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentModel.m; sourceTree = "<group>"; };
+		0CDE81841DD08D7D002DF58E /* NameList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NameList.xcdatamodel; sourceTree = "<group>"; };
+		0CDE818B1DD0A254002DF58E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CA8333D1DD0B0D90002D81B /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,8 +58,10 @@
 		0CDE81551DD08D37002DF58E = {
 			isa = PBXGroup;
 			children = (
+				0CDE81831DD08D7D002DF58E /* NameList.xcdatamodeld */,
 				0CDE81601DD08D37002DF58E /* NameList */,
 				0CDE815F1DD08D37002DF58E /* Products */,
+				0CDE818A1DD0A254002DF58E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,10 +76,16 @@
 		0CDE81601DD08D37002DF58E /* NameList */ = {
 			isa = PBXGroup;
 			children = (
+				0CA8333A1DD0AF350002D81B /* SQLManager.h */,
+				0CA8333B1DD0AF350002D81B /* SQLManager.m */,
+				0CDE817C1DD08D7D002DF58E /* HomeViewController.h */,
+				0CDE81801DD08D7D002DF58E /* HomeViewController.m */,
+				0CDE817E1DD08D7D002DF58E /* StudentModel.h */,
+				0CDE81821DD08D7D002DF58E /* StudentModel.m */,
+				0CDE817B1DD08D7D002DF58E /* AddViewController.h */,
+				0CDE817F1DD08D7D002DF58E /* AddViewController.m */,
 				0CDE81641DD08D37002DF58E /* AppDelegate.h */,
 				0CDE81651DD08D37002DF58E /* AppDelegate.m */,
-				0CDE81671DD08D37002DF58E /* ViewController.h */,
-				0CDE81681DD08D37002DF58E /* ViewController.m */,
 				0CDE816A1DD08D37002DF58E /* Main.storyboard */,
 				0CDE81701DD08D37002DF58E /* Assets.xcassets */,
 				0CDE81721DD08D37002DF58E /* LaunchScreen.storyboard */,
@@ -80,6 +102,14 @@
 				0CDE81621DD08D37002DF58E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CDE818A1DD0A254002DF58E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CDE818B1DD0A254002DF58E /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,6 +143,7 @@
 				TargetAttributes = {
 					0CDE815D1DD08D37002DF58E = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = S73U89V5U9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -153,10 +184,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CDE81691DD08D37002DF58E /* ViewController.m in Sources */,
+				0CDE81851DD08D7D002DF58E /* AddViewController.m in Sources */,
+				0CDE81881DD08D7D002DF58E /* StudentModel.m in Sources */,
+				0CA8333C1DD0AF350002D81B /* SQLManager.m in Sources */,
 				0CDE81661DD08D37002DF58E /* AppDelegate.m in Sources */,
 				0CDE816F1DD08D37002DF58E /* NameList.xcdatamodeld in Sources */,
+				0CDE81891DD08D7D002DF58E /* NameList.xcdatamodeld in Sources */,
 				0CDE81631DD08D37002DF58E /* main.m in Sources */,
+				0CDE81861DD08D7D002DF58E /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +309,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S73U89V5U9;
 				INFOPLIST_FILE = NameList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.weifeng.NameList;
@@ -285,6 +321,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S73U89V5U9;
 				INFOPLIST_FILE = NameList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.weifeng.NameList;
@@ -311,6 +348,7 @@
 				0CDE817A1DD08D37002DF58E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -322,6 +360,17 @@
 			);
 			currentVersion = 0CDE816E1DD08D37002DF58E /* NameList.xcdatamodel */;
 			path = NameList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		0CDE81831DD08D7D002DF58E /* NameList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0CDE81841DD08D7D002DF58E /* NameList.xcdatamodel */,
+			);
+			currentVersion = 0CDE81841DD08D7D002DF58E /* NameList.xcdatamodel */;
+			name = NameList.xcdatamodeld;
+			path = NameList/NameList.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
